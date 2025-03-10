@@ -1,0 +1,19 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: aliceblue;
+}
+
+div .imagen1 img{
+  border-radius: 30px;
+  filter: drop-shadow(20px 20px 20px peru);
+  height: 700px;
+}
+
+div .imagen2 img{
+  border-radius: 30px;
+}
