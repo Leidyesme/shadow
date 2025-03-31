@@ -5,71 +5,94 @@
 }
 body {
   background-color: rgb(235, 235, 229);
+  background-image: url(img/img1.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 0px 200px 0px 200px; 
+}
+h1 {
+  color: antiquewhite;
+  font-size: 80px;
+  text-align: center;
+  margin: 10px;
+  font-style: italic;
+}
+h2{
+  color: bisque;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+}
+p{
+  font-size: 20px;
+  color: bisque;
+  width: 230px;
+  text-align: center;
 }
 img {
-  width: 300px;
+  width: 230px;
   height: 300px;
-  margin: 30px auto;
+  margin: 20px auto;
 }
 div {
   display: inline-block;
-  border: solid 5px #3e8a8f;
+  border: solid 5px #babbff;
   border-radius: 20px;
   padding: 30px;
 }
 div.imagen1 img {
-  filter: drop-shadow(20px 10px 20px rgb(61, 247, 185));
+  filter: drop-shadow(20px 10px 20px rgb(0, 97, 15));
 }
 div.imagen2 img {
-  filter: drop-shadow(20px 20px 20px rgb(115, 223, 89));
+  filter: drop-shadow(20px 20px 20px rgb(187, 255, 0));
 }
 div.imagen3 img {
-  filter: drop-shadow(20px 20px 20px rgb(88, 0, 88));
+  filter: drop-shadow(20px 20px 20px rgb(249, 180, 4));
 }
 div.imagen4 img {
-  filter: drop-shadow(20px 20px 20px rgb(84, 150, 46));
+  filter: drop-shadow(20px 20px 20px rgb(235, 11, 11));
 }
 div.imagen5 img {
-  filter: drop-shadow(20px 20px 20px rgb(127, 230, 230));
+  filter: drop-shadow(20px 20px 20px rgb(12, 225, 19));
 }
 div.imagen6 img {
-  filter: drop-shadow(20px 20px 20px rgb(255, 123, 0));
+  filter: drop-shadow(20px 20px 20px rgb(54, 25, 181));
 }
 div.imagen7 img {
-  filter: drop-shadow(20px 20px 20px rgb(28, 46, 104));
+  filter: drop-shadow(20px 20px 20px rgb(186, 99, 106));
 }
 div.imagen8 img {
-  filter: drop-shadow(20px 20px 20px rgb(205, 171, 233));
+  filter: drop-shadow(20px 20px 20px rgb(160, 66, 135));
 }
 div.imagen9 img {
-  filter: drop-shadow(20px 20px 20px rgb(255, 0, 0));
+  filter: drop-shadow(20px 20px 20px rgb(62, 90, 184));
 }
 div.imagen10 img {
-  filter: drop-shadow(20px 20px 20px rgb(46, 1, 1));
+  filter: drop-shadow(20px 20px 20px rgb(12, 152, 70));
 }
 div.imagen11 img {
-  filter: drop-shadow(20px 20px 20px rgb(55, 219, 192));
+  filter: drop-shadow(20px 20px 20px rgb(175, 55, 219));
 }
 div.imagen12 img {
-  filter: drop-shadow(20px 20px 20px rgb(236, 134, 103));
+  filter: drop-shadow(20px 20px 20px rgb(66, 225, 237));
 }
 div.imagen13 img {
-  filter: drop-shadow(20px 20px 20px rgb(172, 129, 12));
+  filter: drop-shadow(20px 20px 20px rgb(227, 75, 220));
 }
 div.imagen14 img {
-  filter: drop-shadow(20px 20px 20px rgb(60, 116, 8));
+  filter: drop-shadow(20px 20px 20px rgb(116, 31, 185));
 }
 div.imagen15 img {
-  filter: drop-shadow(20px 20px 20px rgb(24, 100, 1));
+  filter: drop-shadow(20px 20px 20px rgb(198, 22, 214));
 }
 div.imagen16 img {
-  filter: drop-shadow(20px 20px 20px rgb(122, 41, 41));
+  filter: drop-shadow(20px 20px 20px rgb(14, 114, 47));
 }
 div.imagen17 img {
-  filter: drop-shadow(20px 20px 20px rgb(72, 62, 206));
+  filter: drop-shadow(20px 20px 20px rgb(81, 48, 156));
 }
 div.imagen18 img {
-  filter: drop-shadow(20px 20px 20px rgb(9, 11, 105));
+  filter: drop-shadow(20px 20px 20px rgb(212, 103, 233));
 }
 div.imagen19 img {
   filter: drop-shadow(20px 20px 20px rgb(243, 183, 55));
@@ -78,52 +101,52 @@ div.imagen20 img {
   filter: drop-shadow(20px 20px 20px rgb(230, 90, 55));
 }
 div.imagen21 img {
-  filter: drop-shadow(0px 0px 20px rgb(114, 20, 20));
+  filter: drop-shadow(0px 0px 20px rgb(191, 7, 242));
 }
 div.imagen22 img {
-  filter: drop-shadow(20px 20px 20px rgb(0, 0, 0));
+  filter: drop-shadow(20px 20px 20px rgba(186, 75, 245, 0.813));
 }
 div.imagen23 img {
-  filter: drop-shadow(0px 0px 20px rgb(255, 255, 0));
+  filter: drop-shadow(0px 0px 20px rgb(189, 189, 36));
 }
 div.imagen24 img {
-  filter: drop-shadow(20px 20px 20px rgb(180, 156, 50));
+  filter: drop-shadow(20px 20px 20px rgb(214, 185, 56));
 }
 div.imagen25 img {
-  filter: drop-shadow(0px 0px 30px rgb(204, 148, 204));
+  filter: drop-shadow(0px 0px 30px rgb(107, 144, 255));
 }
 div.imagen26 img {
-  filter: drop-shadow(20px 20px 20px rgb(140, 221, 201));
+  filter: drop-shadow(20px 20px 20px rgb(165, 136, 202));
 }
 div.imagen27 img {
-  filter: drop-shadow(0px 0px 10px rgb(140, 228, 220));
+  filter: drop-shadow(0px 0px 10px rgb(243, 175, 48));
 }
 div.imagen28 img {
-  filter: drop-shadow(0px 0px 10px rgb(13, 162, 207));
+  filter: drop-shadow(0px 0px 10px rgb(29, 191, 240));
 }
 div.imagen29 img {
-  filter: drop-shadow(0px 0px 10px rgb(231, 76, 185));
+  filter: drop-shadow(0px 0px 10px rgb(231, 76, 130));
 }
 div.imagen30 img {
-  filter: drop-shadow(0px 0px 10px rgb(235, 134, 218));
+  filter: drop-shadow(0px 0px 10px rgb(235, 134, 198));
 }
 div.imagen31 img {
-  filter: drop-shadow(10px 10px 50px rgb(167, 122, 71));
+  filter: drop-shadow(10px 10px 50px rgba(255, 170, 73, 0.919));
 }
 div.imagen32 img {
-  filter: drop-shadow(0px 0px 15px rgb(24, 118, 124));
+  filter: drop-shadow(0px 0px 15px rgb(103, 219, 182));
 }
 div.imagen33 img {
-  filter: drop-shadow(10px 0px 20px rgb(189, 157, 17));
+  filter: drop-shadow(10px 0px 20px rgb(22, 55, 164));
 }
 div.imagen34 img {
-  filter: drop-shadow(0px 0px 30px rgb(39, 39, 119));
+  filter: drop-shadow(0px 0px 30px rgb(52, 178, 231));
 }
 div.imagen35 img {
-  filter: drop-shadow(0px 0px 20px rgb(237, 240, 56));
+  filter: drop-shadow(0px 0px 20px rgb(42, 156, 243));
 }
 div.imagen36 img {
-  filter: drop-shadow(10px 10px 20px rgb(255, 153, 0));
+  filter: drop-shadow(10px 10px 20px rgb(201, 157, 24));
 }
 div.imagen37 img {
   filter: drop-shadow(10px 10px 10px rgb(53, 30, 182));
