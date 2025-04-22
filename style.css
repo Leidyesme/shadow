@@ -5,42 +5,78 @@
 }
 body {
   background-color: rgb(235, 235, 229);
-  background-image: url(img/img1.jpg);
+  background-image: linear-gradient( to top, #96d3f281 0%, #868af1a9 100%), url(img/img1.jpg);
   background-repeat: no-repeat;
   background-size:cover;
-  padding: 0px 200px 0px 200px; 
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
 }
 h1 {
-  color: antiquewhite;
-  font-size: 80px;
-  text-align: center;
-  margin: 10px;
-  font-style: italic;
+  font-size: 100px;
+  margin: 20px 0;
+  font-family: italic;
 }
-h2{
-  color: bisque;
-  text-align: center;
-  font-size: 30px;
-  font-style: italic;
+.card__header {
+  font-size: 40px;
+  font-family: "italic";
+  text-shadow: #033c85a8 3px 6px 4px;
+  text-transform: capitalize;
+  color: rgb(211, 175, 245);
 }
-p{
-  font-size: 20px;
-  color: bisque;
-  width: 230px;
-  text-align: center;
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 20vh;
+  width: 400vw;
 }
+.card {
+  width: 20em;
+  height: 40em;
+  background: linear-gradient(#8088fa50, #d691e53a);
+  border-radius: 20px;
+  padding: 10px;
+  display: inline-block;
+  margin: 12px;
+  transition: pointer;
+  border: none;
+}
+.card__body {
+  height: 350px;
+  margin: 12px 0;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: 1s;
+}
+.card:hover img {
+  transform: scale3d(1.2, 1.2, 1.2);
+  transition: 1s;
+  filter: drop-shadow(rgb (255, 255, 255) 5px 5px 10px);
+}
+.car__footer {
+  font-family: "italic";
+  font-size: 18.1rem;
+}
+p {
+  font-size: 25px;
+}
+
 img {
-  width: 230px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   margin: 20px auto;
 }
 div {
   display: inline-block;
-  border: solid 5px #babbff;
-  border-radius: 20px;
-  padding: 30px;
+  padding: 10px;
+  border-radius: 20px;  
 }
-div.imagen1 img {
+
+
+/* div.imagen1 img {
   filter: drop-shadow(20px 10px 20px rgb(0, 97, 15));
 }
 div.imagen2 img {
@@ -213,4 +249,4 @@ div.imagen57 img {
 }
 div.imagen58 img {
   filter: drop-shadow(10px 10px 10px rgb(144, 197, 233));
-}
+} */
