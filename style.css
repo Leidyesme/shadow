@@ -24,12 +24,12 @@ h1 {
   text-transform: capitalize;
   color: rgb(211, 175, 245);
 }
-.container {
+/* .container {
   max-width: 1400px;
   margin: 0 auto;
   height: 20vh;
   width: 400vw;
-}
+} */
 .card {
   width: 20em;
   height: 40em;
